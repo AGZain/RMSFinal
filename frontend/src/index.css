@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow:hidden;
+  background-color: #2d3c42;
+  color:green;
+}
+a{
+font-family: "Verdana", Times, serif;
+font-size:1.2em;
+color:#2d3c42;
+font-weight: bold;
+margin: 1px;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 500px;
+  height: 300px;
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 10px;
+  /* box-shadow: -10px 10px rgba(255,255,255,0.5); */
+  background-color: #92a3a6;
+  border-color:#92a3a6;
+  /* border-radius: 10% 30% 50% 70% */
+}
+
+label{
+font-family: "Times New Roman", Times, serif;
+font-size:1.2em;
+color:#2d3c42;
+font-weight: bold;
+margin: 1px;
+}
+
+
+#footer {
+  /* background-color: purple; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 30px;
+  height: 10%;
+  width: 70%;
+  float:right;
+  margin-bottom: 25px;
+}
+#scroll{
+    background-color: #d0d9de;
+    height:100%;
+    width:65%;
+    float: left;
+    overflow-y:scroll;
+
+}
+#outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+#inventoryTable{
+  overflow-y:scroll;
+  height:95vh;
+
+}
+ #adminPage{
+  overflow-y:scroll;
+  height:95vh;
+}
+
+.inventory_info{
+  display: flex;
+  flex-direction:row;
+}
+.login{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  width:100%;
+  background-color: #2d3c42;
+}
+
+.login_header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top:0px;
+  left:0px;
+  background-color: #92a3a6;
+
+}
+.loginform{
+  width:60%;
+}
+
+.login_header label{
+  margin-right: 12px;
+}
+
+.login_button{
+  background-color: #80c8b9;
+  width: 35%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+  border-color:#2d3c42;
+}
+
+.logininfo{
+  background-color:#d0d9de;
+  width:100%;
+  height: 45px;
+  border-radius: 10px;
+  border:none;
+  padding-left: 10px;
+
+}
+.checkout_button{
+  /* //background-color: #80c8b9; */
+  width: 35%;
+  border-radius: 10px;
+  padding: 12px;
+  /* margin-top: 5px;
+  margin-bottom: 15px; */
+  color: white;
+  font-size:0.7em;
+  font-weight: bold;
+  border-color:#2d3c42;
+}
+
+.number_item{
+  background-color: #d0d9de;
+  border: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.form-group{
+  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.additem_button{
+  background-color: #80c8b9;
+  width: 30%;
+  border-radius: 5px;
+  padding:12px;
+  font-family: "Verdana", Times, serif;
+  font-size:0.7em;
+  border: none;
+  margin-left: 1px;
+  /* font-weight: bold; */
+}
+.tabs{
+  font-family: "Verdana", Times, serif;
+  font-size:1.2em;
+  color:black;
+  font-weight: bold;
+  box-shadow: 0px 3px grey;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  top:0px;
+  background-color: #92a3a6;
+}
+
+.clockinbutton{
+  background-color: #80c8b9;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Verdana", Times, serif;
+  font-size:1.5em;
+  border: none;
+  font-weight: bold;
+
+}
+.clockin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 10px;
+  position: absolute;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+  background-color: #92a3a6;
+    /* border-color:#92a3a6; */
+}

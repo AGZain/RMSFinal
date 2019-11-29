@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for RMS application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "cjs": "0.0.11",
+    "content-disposition": "^0.5.3",
+    "express": "^4.17.1",
+    "finalhandler": "^1.1.2",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "parseurl": "^1.3.3",
+    "qs": "^6.9.1",
+    "safe-buffer": "^5.2.0",
+    "send": "^0.17.1",
+    "setprototypeof": "^1.2.0"
+  }
+}
